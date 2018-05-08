@@ -16,7 +16,7 @@ namespace Jtr.Project
         {
             try
             {
-                Console.WriteLine("This is Homework Lesson");
+                Console.WriteLine("这是第一个学习项目");
 
                 BaseDAL baseDAL =  new BaseDAL();
  
