@@ -10,7 +10,7 @@ namespace Jtr.Framework
     public class StaticConstant
     {
         /// <summary>
-        /// sqlserver数据库连接
+        /// 静态常量  数据库连接字符串    读取配置文件中的sqlserver数据库连接
         /// </summary>
         public static string SqlServerConnString = ConfigurationManager.ConnectionStrings["JtrConnString"].ConnectionString;
 

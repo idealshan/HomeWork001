@@ -12,6 +12,14 @@ namespace Jtr.DAL
 {
     public class BaseDAL
     {
+
+        /// <summary>
+        /// 泛型查询，按表名和id进行查询
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="id"></param>
+        /// <returns></returns>
+
         public T Find<T>(int id) where T : BaseModel
         {
             Type type = typeof(T);
